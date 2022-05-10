@@ -1,4 +1,5 @@
-import { Container, FormContainer, IconsContainer, ImageIconContainer, Section } from "./styled"
+import { CardContact } from "../cardContact/CardContact"
+import { CardContainer, Container, FormContainer, IconsContainer, ImageIconContainer, Section } from "./styled"
 
 export const Nav = () => {
     return (
@@ -22,6 +23,13 @@ export const Nav = () => {
                    <input placeholder="pesquisar ou iniciar nova conversa"/>
                </form>
             </FormContainer>
+            <CardContainer>
+            <CardContact/>
+            <CardContact/>
+            <CardContact/>
+         
+      
+            </CardContainer>
         </Container>
     )
 }

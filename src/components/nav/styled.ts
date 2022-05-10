@@ -42,3 +42,7 @@ input{
 
 }
 `
+export const CardContainer=styled.div`
+max-height:501px;
+overflow: auto;
+`
